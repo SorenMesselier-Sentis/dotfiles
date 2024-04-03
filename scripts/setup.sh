@@ -52,7 +52,6 @@ brew install --cask homebrew/cask-fonts/font-jetbrains-mono-nerd-font
 
 # Copying and checking configuration files
 echo "Download and checkout configuration files ..."
-[ ! -d "$HOME/dotfiles"] && git clone git@github.com:SorenMesselier-Sentis/dotfiles.git
 stow dotfiles --adopt -t $HOME
 # End
 echo "Installing Complete."
