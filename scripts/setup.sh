@@ -19,7 +19,6 @@ echo "Installing Brew Formulae"
 ### Terminal
 brew install starship
 brew install zsh-autosuggestions
-brew install zsh-syntax-hightlighting
 
 ### Dev
 echo "Installing Brew Developpement Tools ..."
@@ -44,6 +43,7 @@ brew install --cask raycast # Command Palette
 brew install --cask insomnia # API Client
 brew install --cask orbstack # Docker Substitute
 brew install --cask datagrip # MYSQL Workbench Substitute
+brew install --cask stats # Catch CPU and Memory Usage
 
 ### Fonts
 echo "Installing Brew Fonts ..."
