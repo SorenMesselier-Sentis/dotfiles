@@ -43,6 +43,7 @@ brew install --cask amethyst # Window Manager
 brew install --cask raycast # Command Palette
 brew install --cask insomnia # API Client
 brew install --cask orbstack # Docker Substitute
+brew install --cask datagrip # MYSQL Workbench Substitute
 
 ### Fonts
 echo "Installing Brew Fonts ..."
@@ -52,6 +53,6 @@ brew install --cask homebrew/cask-fonts/font-jetbrains-mono-nerd-font
 
 # Copying and checking configuration files
 echo "Download and checkout configuration files ..."
-stow dotfiles --adopt -t $HOME
+stow . --adopt
 # End
 echo "Installing Complete."
