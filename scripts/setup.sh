@@ -52,7 +52,8 @@ brew install --cask font-hack-nerd-font
 brew install --cask homebrew/cask-fonts/font-jetbrains-mono-nerd-font
 
 # Copying and checking configuration files
-echo "Download and checkout configuration files ..."
+echo "Stow Configuration Files ..."
+cd && cd dotfiles/
 stow . --adopt
 # End
-echo "Installing Complete."
+echo "Installing Complete. Please restart your terminal and make sure that everything works."
