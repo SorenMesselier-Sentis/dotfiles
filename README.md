@@ -35,6 +35,6 @@ bash mysql.sh
 
 ## TODO
 
-- [ ] Add a `default.sh` file to modify the default settings of MAC OS Environment.
 - [ ] Add Spictify and configure a theme.
-- [ ] Add a Readme description for this dotfiles.
+- [ ] Finish a Readme description for this dotfiles.
+- [ ] Finish `default.sh` script.

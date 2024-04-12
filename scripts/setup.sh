@@ -19,6 +19,7 @@ echo "Installing Brew Formulae"
 ### Terminal
 brew install starship
 brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 ### Dev
 echo "Installing Brew Developpement Tools ..."
