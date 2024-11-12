@@ -22,7 +22,7 @@ brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 
 ### Dev
-echo "Installing Brew Developpement Tools ..."
+echo "Installing Brew Development Tools ..."
 brew install yarn
 brew install node
 brew install nvm
@@ -41,8 +41,7 @@ brew install --cask firefox
 brew install --cask zed
 brew install --cask amethyst # Window Manager
 brew install --cask raycast # Command Palette
-brew install --cask insomnia # API Client
-brew install --cask orbstack # Docker Substitute
+brew install --cask docker # Docker
 brew install --cask datagrip # MYSQL Workbench Substitute
 brew install --cask stats # Catch CPU and Memory Usage
 

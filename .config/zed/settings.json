@@ -7,11 +7,32 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "show_inline_completions": false,
+  "languages": {
+    "Markdown": {
+      "show_inline_completions": false
+    },
+    "PHP": {
+      "show_inline_completions": true
+    },
+    "TypeScript": {
+      "show_inline_completions": true
+    },
+    "JavaScript": {
+      "show_inline_completions": false
+    },
+    "Shell Script": {
+      "show_inline_completions": true
+    },
+    "Python": {
+      "show_inline_completions": true
+    }
+  },
   "terminal": {
     "dock": "bottom"
   },
   "assistant": {
-    "version": "1",
+    "version": "2",
     "button": false
   },
   "hard_tabs": true,
@@ -24,7 +45,8 @@
   "features": {
     "copilot": true
   },
-  "formatter": "auto",
+  "formatter": "language_server",
   "show_whitespaces": "all",
-  "soft_wrap": "editor_width"
+  "soft_wrap": "editor_width",
+  "autosave": "on_focus_change"
 }
